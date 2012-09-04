@@ -1,0 +1,6 @@
+defaults: &defaults  
+  api: http://localhost:4567
+
+production:  
+  <<: *defaults  
+  api: <%= @api_server %>

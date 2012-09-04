@@ -21,6 +21,17 @@ depends "redis"
 # available @ http://community.opscode.com/cookbooks/iptables
 depends "iptables"
 
+# available @ http://community.opscode.com/cookbooks/application
+depends "application"
+
+# available @ http://community.opscode.com/cookbooks/application_ruby
+depends "application_ruby"
+
+# available @ https://github.com/sniperd/application_nginx/tree/add-ssl-options
+# Chef ticket COOK-1590 has been opened to merge these SSL changes into upstream application_nginx cookbook.
+# This will be removed once cookbook is available @ http://community.opscode.com/cookbooks/application_nginx
+depends "application_nginx"
+
 %w[
   ubuntu
   debian
