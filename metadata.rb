@@ -32,6 +32,12 @@ recommends "application_ruby"
 # This will be removed once cookbook is available @ http://community.opscode.com/cookbooks/application_nginx
 recommends "application_nginx"
 
+# available @ http://community.opscode.com/cookbooks/unicorn
+recommends "unicorn"
+
+# available @ http://community.opscode.com/cookbooks/nginx
+recommends "nginx"
+
 %w[
   ubuntu
   debian
